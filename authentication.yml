@@ -1,0 +1,32 @@
+plugins:
+  - name: auth0
+    options:
+    clientId: $AUTH0_CLIENT_ID
+    clientSecret: $AUTH0_CLIENT_SECRET
+    tenant: tech-blog
+
+  - name: subscribers
+    path: /subscriber
+    options:
+      roles: ['subscriber']
+
+  - name: admins
+    path: /admin
+    options:
+      roles: ['admin']
+
+  - name: bloggers
+    path: /blogger
+    options:
+      roles: ['blogger']
+
+
+plugins:
+  - name: custom-errors
+    options:
+      errors:
+        500: errors/500.html
+        404: errors/404.html
+        401: errors/401.html
+        403: forbidden.html
+  
