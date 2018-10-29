@@ -1,0 +1,10 @@
+deploy:
+  directory: _site
+  build:
+    - >-
+      echo "destination: _site\nurl: https://__baseurl__\nbaseurl: \"\"" >
+      _aerobatic.config.yml
+    - 'jekyll build --config _config.yml,_aerobatic.config.yml'
+plugins:
+  - name: webpage
+id: d884588a-d8c6-49ec-8236-c35905fd4ae7
