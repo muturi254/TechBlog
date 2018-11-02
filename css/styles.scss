@@ -1,7 +1,25 @@
 body{
     background-image:  url('../media/backgroundEngineering.jpeg'); 
-                 
+           
 }
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+}
+
+/*
+.wrapper{
+  text-align: center;
+}
+.btn{
+  left: 40%;
+  top: 60%;
+  display: inline-block;
+  position: absolute;
+}
+*/
 .content {
     position: absolute;
     top: 50%;
@@ -20,8 +38,8 @@ body{
       overflow: hidden;
       height: 40px;
       padding: 0 40px;
-  
-      &:before {
+      /* incase a fancy animation is needed */
+      /*&:before {
         content: '[';
         left: 0;
       }
@@ -47,6 +65,7 @@ body{
         animation-duration: 2s;
         animation-iteration-count: infinite;
       }
+      */
   
       &__text {
         display: inline;

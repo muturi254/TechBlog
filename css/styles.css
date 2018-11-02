@@ -1,6 +1,23 @@
 body {
   background-image: url("../media/backgroundEngineering.jpeg"); }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 60%; }
+
+/*
+.wrapper{
+  text-align: center;
+}
+.btn{
+  left: 40%;
+  top: 60%;
+  display: inline-block;
+  position: absolute;
+}
+*/
 .content {
   position: absolute;
   top: 50%;
@@ -16,26 +33,35 @@ body {
     font-weight: 600;
     overflow: hidden;
     height: 40px;
-    padding: 0 40px; }
-    .content__container:before {
+    padding: 0 40px;
+    /* incase a fancy animation is needed */
+    /*&:before {
       content: '[';
-      left: 0; }
-    .content__container:after {
+      left: 0;
+    }
+
+    &:after {
       content: ']';
       position: absolute;
-      right: 0; }
-    .content__container:after, .content__container:before {
+      right: 0;
+    }
+
+    &:after, &:before {
       position: absolute;
       top: 0;
+      
       color: #16a085;
       font-size: 42px;
       line-height: 40px;
+      
       -webkit-animation-name: opacity;
       -webkit-animation-duration: 2s;
       -webkit-animation-iteration-count: infinite;
       animation-name: opacity;
       animation-duration: 2s;
-      animation-iteration-count: infinite; }
+      animation-iteration-count: infinite;
+    }
+    */ }
     .content__container__text {
       display: inline;
       float: left;
