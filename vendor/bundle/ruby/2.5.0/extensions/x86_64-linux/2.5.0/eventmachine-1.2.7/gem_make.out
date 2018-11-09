@@ -1,0 +1,16 @@
+current directory: /home/prehistoricpancake/Desktop/TechBlog/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby2.5 -r ./siteconf20181108-24080-1kggl9o.rb extconf.rb
+creating Makefile
+
+current directory: /home/prehistoricpancake/Desktop/TechBlog/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /home/prehistoricpancake/Desktop/TechBlog/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/prehistoricpancake/Desktop/TechBlog/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20181108-24080-fbi2y6
